@@ -1405,3 +1405,10 @@ table.sticky-header th {
 #block-views-block-affinity-group-group-2 .bg-orange {
   background-color: var(--navbar-link);
 }
+.add-interest-list ul, .add-skill-list ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.add-interest-list ul li, .add-skill-list ul li {
+  list-style: none;
+}
